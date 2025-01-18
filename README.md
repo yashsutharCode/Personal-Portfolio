@@ -1,4 +1,4 @@
-![Screenshot 2025-01-18 194516](https://github.com/user-attachments/assets/21c21956-7a59-47b2-848b-11d028b78fef)
+
 # Personal Portfolio
 
 A modern, responsive portfolio website built with React.js to showcase projects, skills, and experiences.
