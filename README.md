@@ -1,3 +1,4 @@
+![Screenshot 2025-01-18 194516](https://github.com/user-attachments/assets/21c21956-7a59-47b2-848b-11d028b78fef)
 # Personal Portfolio
 
 A modern, responsive portfolio website built with React.js to showcase projects, skills, and experiences.
@@ -33,3 +34,4 @@ Learn more about React at [React documentation](https://reactjs.org/).
 ---
 
 For troubleshooting, visit [troubleshooting guide](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
+![Screenshot 2025-01-18 194516](https://github.com/user-attachments/assets/c1f32370-8df7-4087-93f0-bb482935a175)
