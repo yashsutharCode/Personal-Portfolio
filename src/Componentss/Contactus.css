@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+.container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-inline: 10px;
+  background:  #e0eaf074;;
+}
+form {
+  width: 570px;
+  max-width: 100%; /* Ensure the form adapts to the screen size */
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: rgba(137, 201, 233, 0.921) 0px 5px 15px;
+  background-color: #f2f6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
+ .form .title #ct{
+  color:  rgb(6, 90, 193); 
+
+ }
+.title {
+  color:  rgb(0, 0, 0);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.form-control {
+  width: 100%;
+  background-color:white;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+  padding: 0.5rem 1.5rem;
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #212529;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+ 
+}
+
+.form-control.thick {
+  height: 3.3rem;
+ 
+}
+
+::placeholder {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #838788;
+}
+
+.btn.btn-primary {
+  font-family: 'Quicksand', sans-serif;
+  font-weight:600;
+  font-size: medium;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 3rem;
+  border-radius: 3rem;
+  border: 2px black;
+  background-color: #aecfe0;
+  color: #000000;
+  box-shadow: rgba(137, 201, 233, 0.921) 0px 5px 15px;
+  margin-top: 20px;
+}
+
+.btn.btn-primary:hover:enabled {
+  transform: scale(1.05); 
+
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles for smaller screens */
+
+@media screen and (max-width: 600px) {
+  form {
+    box-shadow: rgba(137, 201, 233, 0.921) 0px 5px 15px;
+  }
+  .container1{
+    padding-top: 100px;
+    
+  }
+}
+@media screen and (max-width: 450px) {
+  .container1 {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 70px;
+    
+   
+    
+  }
+  .btn.btn-primary {
+    margin-top: 8px;
+  }
+  form {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: rgba(137, 201, 233, 0.921) 0px 5px 15px;
+    
+  }
+ 
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .btn.btn-primary {
+    font-size: medium;
+    padding: 0 1.9rem;
+    height: 50px;
+     
+  }
+
+  .form-control {
+    font-size: 1rem;
+  }
+}
+
+

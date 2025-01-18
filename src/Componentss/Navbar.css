@@ -1,0 +1,121 @@
+/* Basic Reset */
+/* src/components/Navbar.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.873); /* Updated background color */
+    color: black; /* Updated text color */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-weight: 500;
+   
+}
+.logo2{
+    display: none;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 500;
+    color: black; /* Ensure logo text color is black */
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 5px;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0); /* Updated text color */
+    text-decoration: none;
+    padding: 5px 10px;
+   
+    transition: background-color 0 s, color 0 s; /* Smooth transition for hover effect */
+    font-weight:400;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    background-color:#00000053; /* Slightly darker blue for hover effect */
+    color: #ffffff; /* Black text color on hover */
+    border-radius: 5px;
+    font-weight: 100px;
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 61px; /* Adjust based on navbar height */
+        right: 1px;
+        background-color: rgba(255, 255, 255, 0.873); /* Consistent background color for mobile menu */
+        width: 100%;
+        border-radius: 5px;
+       
+      
+    }
+    .nav-links a{
+        font-size: 20px;
+    }
+    .navbar .logo{
+       font-size: 30px;
+       font-weight: 400;
+    }
+    .navbar{
+        background: rgba(255, 255, 255, 0.873);
+    }
+
+    .nav-links.active {
+        display: flex; 
+    }
+
+    .menu-toggle {
+        display: block;
+        font-weight: 900;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+    .nav-links a {
+       
+       
+        padding: 15px 45px;
+       
+       
+       
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+        text-align: center;
+        padding-inline: 30px;
+       
+    }
+   
+}
