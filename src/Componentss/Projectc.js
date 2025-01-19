@@ -99,10 +99,10 @@ function Projectc() {
               <span className="tech-label react">React</span>
             </div>
             <div className="project-links">
-              <a href="https://github.com/your-eco-repo" className="project-button" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/yashsutharCode/Personal-Portfolio" className="project-button" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a href="https://your-eco-demo-link.com" className="project-button" target="_blank" rel="noopener noreferrer">
+              <a  className="project-button" target="_blank" rel="noopener noreferrer">
                 Live URL
               </a>
             </div>
